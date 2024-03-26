@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--
+  Fonti: 
+  // UI e color palette
+  https://dribbble.com/shots/2589927-Calendar-Widget
+
+  // Chechbox personalizzati
+  https://codepen.io/aaroniker/pen/ZEYoxEY
+
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Weekly Calendar</title>
+    <!--Main Tamplate CSS file-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calendar App</h1>
+    </header>
+    <div class="content-wrapper">
+      <main class="left-side">
+        <h1>27</h1>
+        <h2>WEDNESDAY</h2>
+        <ul class="event-list">
+          <li class="event">
+            <input id="e1" type="checkbox" />
+            <label for="e1">
+              <div class="event-name">Buy a birthday gift</div>
+              <div class="event-time">11:00</div>
+            </label>
+          </li>
+          <li class="event">
+            <input id="e2" type="checkbox" />
+            <label for="e2">
+              <div class="event-name">James Blunt's Birthday</div>
+              <div class="event-time">18</div>
+            </label>
+          </li>
+          <li class="event">
+            <input id="e3" type="checkbox" />
+            <label for="e3">
+              <div class="event-name">Pick up my sister</div>
+              <div class="event-time">20:30</div>
+            </label>
+          </li>
+        </ul>
+      </main>
+
+      <main class="right-side">
+        <div class="year">2024</div>
+        <div class="calendar">
+          <div class="month-indicator">
+            <time datetime="2024-03"> MARCH </time>
+          </div>
+
+          <div class="day-of-week">
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+            <div>Sun</div>
+          </div>
+          <div class="date-grid">
+            <div class="february-days">
+              <button>
+                <time datetime="2024-02-26">26</time>
+              </button>
+              <button>
+                <time datetime="2024-02-27">27</time>
+              </button>
+              <button>
+                <time datetime="2024-02-28">28</time>
+              </button>
+              <button>
+                <time datetime="2024-02-29">29</time>
+              </button>
+            </div>
+            <button>
+              <time datetime="2024-03-01">1</time>
+            </button>
+            <button>
+              <time datetime="2024-03-02">2</time>
+            </button>
+            <button>
+              <time datetime="2024-03-03">3</time>
+            </button>
+            <button>
+              <time datetime="2024-03-04">4</time>
+            </button>
+            <button>
+              <time datetime="2024-03-05">5</time>
+            </button>
+            <button>
+              <time datetime="2024-03-06">6</time>
+            </button>
+            <button>
+              <time datetime="2024-03-07">7</time>
+            </button>
+            <button>
+              <time datetime="2024-03-08">8</time>
+            </button>
+            <button>
+              <time datetime="2024-03-09">9</time>
+            </button>
+            <button>
+              <time datetime="2024-03-10">10</time>
+            </button>
+            <button>
+              <time datetime="2024-03-11">11</time>
+            </button>
+            <button>
+              <time datetime="2024-03-12">12</time>
+            </button>
+            <button>
+              <time datetime="2024-03-13">13</time>
+            </button>
+            <button>
+              <time datetime="2024-03-14">14</time>
+            </button>
+            <button>
+              <time datetime="2024-03-15">15</time>
+            </button>
+            <button>
+              <time datetime="2024-03-16">16</time>
+            </button>
+            <button>
+              <time datetime="2024-03-17">17</time>
+            </button>
+            <button>
+              <time datetime="2024-03-18">18</time>
+            </button>
+            <button>
+              <time datetime="2024-03-19">19</time>
+            </button>
+            <button>
+              <time datetime="2024-03-20">20</time>
+            </button>
+            <button>
+              <time datetime="2024-03-21">21</time>
+            </button>
+            <button>
+              <time datetime="2024-03-22">22</time>
+            </button>
+            <button>
+              <time datetime="2024-03-23">23</time>
+            </button>
+            <button>
+              <time datetime="2024-03-24">24</time>
+            </button>
+            <button>
+              <time datetime="2024-03-25">25</time>
+            </button>
+            <button>
+              <time datetime="2024-03-26">26</time>
+            </button>
+            <button class="today">
+              <time datetime="2024-03-27">27</time>
+            </button>
+            <button>
+              <time datetime="2024-03-28">28</time>
+            </button>
+            <button>
+              <time datetime="2024-03-29">29</time>
+            </button>
+            <button>
+              <time datetime="2024-03-30">30</time>
+            </button>
+            <button>
+              <time datetime="2024-03-31">31</time>
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
